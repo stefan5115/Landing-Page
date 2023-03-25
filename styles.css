@@ -11,6 +11,7 @@ html, body{
     justify-content: space-between;
     padding: 5px 100px;
     align-items: center;
+    background-color: #1F2937;
 }
 ul{
     list-style: none;
@@ -20,10 +21,15 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .header > h1, ul{
     margin: 0;
+}
+.header > h1{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .top-container{
@@ -31,11 +37,29 @@ a{
     justify-content: center;
     align-items: center;
     height: 16%;
-    padding: 100px
+    padding: 100px;
+    background-color: #1F2937;
+}
+.button-one{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 10px;
+    border: #1F2937;
+    border-radius: 3px;
 }
 .left , .right{
     flex-basis: 700px;
 }
+
+.left > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF7;
+}
+.left > p{
+    font-size: 18px;
+    color: #E5E7EB;
+} 
 
 .right{
     display: flex;
@@ -44,12 +68,26 @@ a{
     height: 100%;
 }
 
+.right > p{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    text-align: center;
+    color: #E5E7EB;
+    background-color: gray;
+}
 .middle-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+}
+
+.middle-container > h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 .cards{
     display: flex;
@@ -61,12 +99,13 @@ a{
 .card{
     width: 200px;
     height: 200px;
-
 }
 img{
     width: 100%;
     height: 50%;
-    border: solid 2px;
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+
 }
 
 .bottom-container{
@@ -74,21 +113,38 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: auto;;
+    width: 100%;
+    margin: auto;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .bottom-container > h5 {
     align-self: flex-end;
     padding-right: 400px;
+    font-size: 20px;
 }
-
+.bottom-container > p{
+    font-size: 20px;
+    font-style: italic;
+    color: #1F2937;
+}
 .sign-up{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 60%;
-    margin: auto;
-
+    margin: 50px auto;
+    background-color: #3882F6;
+    color: #F9FAF7;
+    border-radius: 10px;
+}
+.button-two{
+    background-color: #3882F6;
+    border: solid 1px #E5E7EB;
+    color: #E5E7EB;
+    border-radius: 3px;
+    padding: 5px 10px;
 }
 
 .stanga{
@@ -106,4 +162,9 @@ img{
 
 .footer{
     text-align: center;
+    background-color: #1F2937;
+    margin: 0;
+    color: #F9FAF7;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
